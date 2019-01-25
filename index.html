@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="mystyle";lang="en">
+<link rel = stylesheet href="CSS/styles.css">
+<head>
+<title>My Profile</title>
+
+<!-- Content in style tag will be explained during CSS 3.0 session -->
+<style>
+body {font-size:0.8em;}
+header,nav, section,article,footer,figure
+
+nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+</style>
+</head>
+
+<meta name="viewport" content="width-device-width,initialscale=1.0">
+
+<body class=body>
+
+	<header>
+			<nav style=text-align:center>
+					<ul id=navbar>
+						<li><a class="yellow" href="index.html">HOME</a></li>
+						<li><a class="yellow" href="ABOUT.html">ABOUT</a></li>
+						<li><a class="yellow" href="SKILLS.html">SKILLS</a></li>
+						<li><a class="yellow" href="EDUCATION.html">EDUCATION</a></li>
+						<li><a class="yellow" href="PROJECTS.html">PROJECTS</a></li>
+						<li><a class="yellow" href="CONTACT.html">CONTACT ME </a></li>
+					</ul>
+				</nav>
+				
+		
+		
+	</header>
+
+	
+
+	<section class = box>
+
+		<article><img src="Images/main_image.jpg"; width= 100% ; max-width=1600px ; height= 500px>
+				
+		</article>
+
+		<article>
+			<table border=0 ; cellpadding=50px>
+				<tr>
+					<td><img src="Images/Me2.jpg"; width=300px; height=300px; ></td>
+					<td>
+					<pre class=box2 ; font-family='Courier New', Courier, monospace;>
+		<p style=font-size:30px ; >Hey there!</p>
+	<p style=font-size:17px ; font-family='Courier New', Courier, monospace;>
+Welcome to my web profile! This is Amit Kumar Chalka, interning 
+at Cognizant Technology Solutions. I am an enthusiatic coder
+who aims to become a software developer at Cognizant.
+Please scroll to know more!
+
+Name : Amit Kumar Chalka
+Age : 21 
+Cognizant ID : 761377
+Email : AmitKumar.Chalka@cognizant.com
+Experience : Fresher
+		
+
+	
+		</pre>
+
+
+			</table>
+		</article>
+
+		<article>
+			
+		</article>
+
+	</section>
+
+	<footer>
+		<p>&copy; 2019  All rights reserved. Designed by Amit Kumar Chalka</p>
+	</footer>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+	</script>
+
+</body>
+</html>

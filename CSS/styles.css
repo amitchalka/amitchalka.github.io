@@ -1,0 +1,93 @@
+body {font-family: 'Courier New', Courier, monospace; font-size:0.8em;}
+header,nav, section,article,footer,figure
+
+nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+*{box-sizing : border-box}
+.container{width : 100%;
+background-color: grey; }
+.skills{text-align: right;
+padding : 10px;
+color : white}
+.R{width: 40%;
+background-color: violet;}
+.C{width: 90%;
+background-color: green;}
+.Python{width: 50%;
+background-color: red;}
+.Java{width: 70%;
+background-color: chocolate ;}
+.html{width: 50%;
+background-color: blue;}
+.css{width: 50%;
+background-color: teal;}
+.box{border:1px solid black; 
+    padding:1%;
+    box-sizing: border-box ;
+    border-radius : 25px;
+    box-shadow: 10px 5px #102b5e}
+.box2{border:1px solid rgb(2, 2, 19); 
+    padding:5% ;  
+    width: 700px ; 
+box-sizing: border-box;
+border-radius : 25px;
+box-shadow: 10px 5px #102b5e}
+
+}
+
+.mystyle{font-family: 'Courier New', Courier, monospace;
+background-color: rgb(255, 255, 255);
+color: black }
+
+.head{font-size: 30px}
+
+.yellow{color: brown; text-shadow: red ;font-size:15px}
+.pic{background-image: url("Images/main2.jpg")}
+
+.body{color: rgb(15, 0, 15)}
+
+#navbar {
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  #navbar li ul{
+    
+    font-family: 'Courier New', Courier, monospace;
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+

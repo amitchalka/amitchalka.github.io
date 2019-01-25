@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class= "mystyle" ;lang="en">
+<link rel = stylesheet href="CSS/styles.css">
+<head>
+<title>My Profile</title>
+
+
+<style>
+body {font-size:0.8em;}
+header,nav, section,article,footer,figure
+
+nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+</style>
+</head>
+<meta name="viewport" content="width-device-width,initialscale=1.0">
+<body class="body">
+<header>
+	<nav style=text-align:center>
+		<ul id=navbar>
+			<li><a class="yellow" href="index.html">HOME</a></li>
+			<li><a class="yellow" href="ABOUT.html">ABOUT</a></li>
+			<li><a class="yellow" href="SKILLS.html">SKILLS</a></li>
+			<li><a class="yellow" href="EDUCATION.html">EDUCATION</a></li>
+			<li><a class="yellow" href="PROJECTS.html">PROJECTS</a></li>
+			<li><a class="yellow" href="CONTACT.html">CONTACT ME</a></li>
+						
+		</ul>	
+	</nav>
+</header>
+<style>
+	article{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+</style>
+							
+						
+<section class =box>
+
+	<article> <img src="Images/main_image.jpg"; width= 100% ; max-width=1600px ; height= auto>
+		</article>
+
+
+<article>
+	<table border=0 ; cellpadding=50px ; style=text-align:left ;>
+	<tr>
+		<td><img src="Images/Me2.jpg"; width=300px ; height= 300px; ></td>
+		
+		<td>
+				<section class = box2>
+		<h1 style=font-size:30px><u>About Me!</u></h1>
+
+		<table border=0>
+		</tr>
+										
+
+	</table> 
+</article>
+
+<article><pre><p style=font-size:18px>
+I'm an emerging Full Stack Developer currently working as 
+an intern for Cognizant Technology Solutions, Pune. I am doing 
+my undergraduate degree in Electronics and Communication Engineering 
+with a minor in Economics. I have worked on C, 
+Python, HTML5 and CSS3 for my projects. I am passionate 
+about learning the nuances of web development. 
+
+Performing strategized and structural tasks are my 
+topmost priority. I believe in time-management and team-work, 
+and make sure I complete my tasks before deadlines. 
+With my prior experience and everyday learning, I aspire to work
+in new and challenging technologies with Cognizant Technology 
+Solutions to further my knowledge in the IT industry. 
+
+Apart from academics and coding, I love watching football. 
+I have also participated in various
+writing and sports events.
+ 
+</p>
+
+</p>
+<h2>Happy Coding!</h2>
+
+
+</pre>
+</article>
+</section>
+
+<article>
+
+</article>
+
+<script>
+		window.onscroll = function() {myFunction()};
+	
+	// Get the navbar
+	var navbar = document.getElementById("navbar");
+	
+	// Get the offset position of the navbar
+	var sticky = navbar.offsetTop;
+	
+	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	  } else {
+		navbar.classList.remove("sticky");
+	  }
+	}
+		</script>
+	
+</body>
+
+
+</html>
